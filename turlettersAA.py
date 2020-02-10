@@ -417,6 +417,37 @@ def turtleLetter(letter,tur):
      tur.right(-90)
      tur.right(-90)
      tur.pu()
+
+    elif letter == "ny":
+        turtleLetter("N",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
+    elif letter == "gy":
+        turtleLetter("G",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
+    elif letter == "dy":
+        turtleLetter("D",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
+    elif letter == "fy":
+        turtleLetter("F",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
+    elif letter == "ly":
+        turtleLetter("L",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
+    elif letter == "sy":
+        turtleLetter("S",tur)
+        tur.pd()
+        turtleLetter("Y",tur)
+
 		
     else:
         #handles space, punctuation, and anything else

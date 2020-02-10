@@ -155,9 +155,9 @@ def turtleLetter(letter,tur):
         tur.forward(-40)
         tur.right(90)
 
-    elif letter == "G":
+     elif letter == "G":
         tur.pd()
-        tur.forward(10)
+        tur.forward(-1)
         tur.right(-90)
         tur.forward(10)
         tur.right(-90)
